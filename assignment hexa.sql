@@ -71,12 +71,7 @@ VALUES
 
 ------------------  2.1]--------------------
 
-SELECT 
-    c.first_name + ' ' + c.last_name AS full_name,
-    a.account_type,
-    c.email
-FROM Customers c
-INNER JOIN Accounts a ON c.customer_id = a.customer_id;
+Select name,acount_type, email from customer
 
 ---------------- 2.2] -------------------------
 
